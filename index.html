@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="The Blu Web — Caribbean AI-powered Real World Asset real estate advisory. We help Caribbean property owners tokenize and scale their assets for global capital.">
-  <meta name="keywords" content="Caribbean RWA, real world assets, tokenization, AI advisory, Caribbean real estate, blockchain, Barbados, ShellCorp">
-  <meta property="og:title" content="The Blu Web — Caribbean AI + RWA Advisory">
+  <meta name="description" content="The Blu Web — Caribbean AI-powered Real World Asset real estate advisory. We help Caribbean property owners tokenise and scale their assets for global capital.">
+  <meta name="keywords" content="Caribbean RWA, real world assets, tokenisation, AI advisory, Caribbean real estate, blockchain, Barbados, ShellCorp">
+  <meta property="og:title" content="The Blu Web — Caribbean RWA Tokenisation">
   <meta property="og:description" content="The Caribbean's AI-powered gateway to Real World Asset real estate. Clarity. Transparency. Liquidity.">
   <meta property="og:url" content="https://www.thebluweb.com">
   <meta property="og:type" content="website">
@@ -53,12 +53,12 @@
     .nav-hamburger span { display: block; width: 22px; height: 1.5px; background: var(--platinum); transition: all 0.3s; }
     #hero { min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr; align-items: center; padding: 120px 48px 80px; position: relative; overflow: hidden; }
     .hero-glow { position: absolute; width: 600px; height: 600px; border-radius: 50%; background: radial-gradient(circle, rgba(26,13,92,0.08) 0%, transparent 70%); top: 50%; right: -100px; transform: translateY(-50%); pointer-events: none; }
-    .hero-glow2 { position: absolute; width: 300px; height: 300px; border-radius: 50%; background: radial-gradient(circle, rgba(200,137,42,0.04) 0%, transparent 70%); bottom: 10%; left: 5%; pointer-events: none; }
+    .hero-glow2 { position: absolute; width: 300px; height: 300px; border-radius: 50%; background: radial-gradient(circle, rgba(12,114,114,0.06) 0%, transparent 70%); bottom: 10%; left: 5%; pointer-events: none; }
     .hero-left { position: relative; z-index: 1; }
     .hero-eyebrow { display: flex; align-items: center; gap: 12px; font-size: 11px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--electric); margin-bottom: 28px; opacity: 0; transform: translateY(20px); animation: fadeUp 0.8s ease forwards 0.2s; }
     .hero-eyebrow::before { content: ''; width: 28px; height: 0.5px; background: var(--gold); display: block; }
     .hero-h1 { font-family: var(--serif); font-size: clamp(28px, 3.5vw, 46px); font-weight: 400; line-height: 1.15; color: var(--white); margin-bottom: 20px; max-width: 520px; opacity: 0; transform: translateY(20px); animation: fadeUp 0.8s ease forwards 0.4s; }
-    .hero-h1 em { color: var(--electric); font-style: italic; }
+    .hero-h1 em { color: var(--teal); font-style: italic; }
     .hero-h1 .gold { color: var(--gold); font-style: italic; }
     .hero-tagline { font-size: 13px; color: var(--ghost); letter-spacing: 0.1em; margin-bottom: 36px; opacity: 0; transform: translateY(20px); animation: fadeUp 0.8s ease forwards 0.6s; }
     .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; opacity: 0; transform: translateY(20px); animation: fadeUp 0.8s ease forwards 0.8s; }
@@ -74,11 +74,11 @@
     .ticker-item { display: inline-flex; align-items: center; gap: 10px; font-size: 11px; color: #706050; padding: 0 28px; letter-spacing: 0.04em; }
     .ticker-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
     @keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
-    #stats { display: grid; grid-template-columns: repeat(4, 1fr); background: var(--deep); border-bottom: 0.5px solid #0E0B2E; }
+    #stats { display: grid; grid-template-columns: repeat(3, 1fr); background: var(--deep); border-bottom: 0.5px solid #0E0B2E; }
     .stat { padding: 36px 24px; text-align: center; border-right: 0.5px solid #0E0B2E; }
     .stat:last-child { border-right: none; }
     .stat-n { font-family: var(--serif); font-size: 34px; font-weight: 400; color: var(--white); margin-bottom: 6px; letter-spacing: -0.01em; }
-    .stat-n em { color: var(--electric); font-style: italic; }
+    .stat-n em { color: var(--gold); font-style: italic; }
     .stat-infinity-wrap { background: #0F0B02; border: 0.5px solid #2E1C04; border-radius: 14px; padding: 20px 16px 18px; margin: -4px; }
     .stat-infinity { font-family: var(--serif); font-size: 52px; font-weight: 400; color: var(--gold); line-height: 1; margin-bottom: 6px; display: block; }
     .stat-l { font-size: 11px; color: var(--ghost); line-height: 1.5; }
@@ -87,20 +87,32 @@
     .sec-eyebrow { display: flex; align-items: center; gap: 10px; font-size: 10px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--electric); margin-bottom: 20px; }
     .sec-eyebrow::before { content: ''; width: 16px; height: 0.5px; background: var(--gold); display: block; }
     .sec-h2 { font-family: var(--serif); font-size: clamp(24px, 2.8vw, 36px); font-weight: 400; line-height: 1.22; color: var(--white); margin-bottom: 14px; }
-    .sec-h2 em { color: var(--electric); font-style: italic; }
+    .sec-h2 em { color: var(--gold); font-style: italic; }
     .sec-sub { font-size: 14px; color: #8A7860; line-height: 1.85; max-width: 520px; margin-bottom: 52px; }
     .sec-sub em { color: var(--platinum); font-style: italic; }
     #services { background: var(--deep); }
     .svc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 48px; }
     .svc-card { background: #09061C; border-radius: 18px; padding: 28px 24px; border: 0.5px solid #130A34; transition: border-color 0.3s, transform 0.3s; }
-    .svc-card:hover { border-color: var(--primary); transform: translateY(-3px); }
+    .svc-card:hover { border-color: var(--gold); transform: translateY(-3px); }
     .svc-card.featured { border-color: var(--gold); border-top: 2px solid var(--gold); }
     .svc-card.featured:hover { border-color: var(--gold); border-top: 2px solid var(--gold); }
     .svc-illus { height: 64px; display: flex; align-items: center; margin-bottom: 20px; }
-    .svc-num { font-family: var(--serif); font-size: 13px; color: var(--primary); font-style: italic; margin-bottom: 12px; }
-    .svc-num.gold-num { color: var(--gold); }
+    .svc-num {
+      font-family: var(--sans);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      color: var(--deep);
+      background: var(--gold);
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+    }
+    .svc-num.gold-num { background: var(--gold); color: var(--deep); }
     .svc-h3 { font-family: var(--serif); font-size: 20px; font-weight: 400; color: var(--white); margin-bottom: 10px; line-height: 1.3; }
-    .svc-h3 em { color: var(--electric); font-style: italic; }
+    .svc-h3 em { color: var(--teal); font-style: italic; }
     .svc-p { font-size: 13px; color: #8A7860; line-height: 1.8; margin-bottom: 20px; }
     .svc-price { display: inline-flex; align-items: center; font-size: 11px; color: var(--gold); border: 0.5px solid rgba(200,137,42,0.4); padding: 5px 13px; border-radius: 12px; letter-spacing: 0.02em; }
     .infog { background: #080616; border-radius: 20px; padding: 36px 28px; border: 0.5px solid #0E0B2E; }
@@ -109,7 +121,7 @@
     .infog-flow { display: flex; align-items: center; gap: 0; }
     .flow-node { flex: 1; text-align: center; padding: 0 8px; }
     .flow-icon { width: 50px; height: 50px; border-radius: 50%; background: #120A34; border: 1px solid var(--primary); display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; transition: border-color 0.3s, background 0.3s; }
-    .flow-node:hover .flow-icon { border-color: var(--electric); background: #140B3C; }
+    .flow-node:hover .flow-icon { border-color: #5ECECE; background: #082A2A; }
     .flow-icon.gold-icon { background: #1A1204; border-color: var(--gold); }
     .flow-node:hover .flow-icon.gold-icon { background: #201404; }
     .flow-label { font-size: 12px; font-weight: 500; color: var(--white); margin-bottom: 4px; }
@@ -124,12 +136,12 @@
     .about-row:last-child { border-bottom: none; }
     .about-label { font-size: 12px; color: var(--ghost); }
     .about-val { font-size: 12px; font-weight: 500; color: var(--platinum); }
-    .about-badge { font-size: 10px; color: var(--electric); background: #140B3C; padding: 4px 10px; border-radius: 8px; }
+    .about-badge { font-size: 10px; color: #5ECECE; background: #082A2A; padding: 4px 10px; border-radius: 8px; }
     .about-badge-gold { font-size: 10px; color: var(--gold); background: #1A1204; border: 0.5px solid rgba(200,137,42,0.35); padding: 4px 10px; border-radius: 8px; }
     #values { background: #080616; border-top: 0.5px solid #0E0B2E; }
-    .values-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 8px; }
+    .values-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 8px; }
     .value-card { background: var(--deep); border-radius: 14px; padding: 22px 18px; border: 0.5px solid #130A34; transition: border-color 0.3s; }
-    .value-card:hover { border-color: rgba(84,72,192,0.4); }
+    .value-card:hover { border-color: rgba(12,114,114,0.5); }
     .value-icon { width: 8px; height: 8px; border-radius: 50%; background: var(--gold); margin-bottom: 14px; }
     .value-title { font-family: var(--serif); font-size: 16px; font-weight: 400; color: var(--white); margin-bottom: 8px; font-style: italic; }
     .value-desc { font-size: 12px; color: #8A7860; line-height: 1.65; }
@@ -137,12 +149,29 @@
     .cta-gold-rule { width: 48px; height: 1.5px; background: var(--gold); margin: 0 auto 32px; opacity: 0.75; }
     #contact .sec-h2 { max-width: 500px; margin: 0 auto 14px; }
     #contact .sec-sub { margin: 0 auto 32px; text-align: center; }
-    .cta-note { font-size: 11px; color: #3E2E1A; margin-top: 14px; letter-spacing: 0.04em; }
+    .cta-note { font-size: 11px; color: var(--platinum); margin-top: 14px; letter-spacing: 0.04em; opacity: 0.7; }
     footer { background: var(--deep); border-top: 0.5px solid #0F0D28; padding: 24px 48px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
     .footer-left p { font-size: 11px; color: #3E2E1A; }
     .footer-right { text-align: right; }
     .footer-right p { font-size: 11px; color: #4E3E2A; }
     .footer-right .gold-text { color: var(--gold); opacity: 0.7; font-size: 10px; margin-top: 2px; }
+
+    #team { background: var(--midnight); border-top: 0.5px solid #0E0B2E; }
+    .team-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .team-card { background: #09061C; border-radius: 18px; padding: 32px 28px; border: 0.5px solid #130A34; }
+    .team-avatar { width: 64px; height: 64px; border-radius: 50%; background: #1A0D5C; border: 2px solid var(--gold); margin-bottom: 20px; display: flex; align-items: center; justify-content: center; font-family: var(--serif); font-size: 20px; color: var(--gold); }
+    .team-name { font-family: var(--serif); font-size: 24px; font-weight: 400; color: var(--white); margin-bottom: 8px; line-height: 1.2; }
+    .team-role-badge { font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: 0.06em; color: var(--deep); background: var(--teal); display: inline-flex; align-items: center; padding: 4px 12px; border-radius: 20px; margin-bottom: 18px; }
+    .team-bio { font-size: 13px; color: var(--ghost); line-height: 1.85; margin-bottom: 20px; }
+    .team-creds { border-top: 0.5px solid #0E0B2E; padding-top: 16px; display: flex; flex-direction: column; gap: 8px; }
+    .team-cred { display: flex; align-items: center; gap: 10px; font-size: 11px; color: var(--platinum); }
+    .team-cred-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
+    #faq { background: var(--deep); border-top: 0.5px solid #0E0B2E; }
+    .faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .faq-item { background: #09061C; border-radius: 14px; padding: 22px 24px; border: 0.5px solid #130A34; }
+    .faq-q { font-family: var(--serif); font-size: 15px; font-weight: 400; color: var(--white); margin-bottom: 10px; line-height: 1.3; }
+    .faq-a { font-size: 13px; color: var(--ghost); line-height: 1.8; }
+    @media (max-width: 768px) { .team-grid { grid-template-columns: 1fr; gap: 16px; } .faq-grid { grid-template-columns: 1fr; gap: 12px; } }
     .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
     .reveal.visible { opacity: 1; transform: translateY(0); }
     .reveal-delay-1 { transition-delay: 0.1s; }
@@ -154,7 +183,7 @@
     .mobile-nav { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(5,5,15,0.98); z-index: 99; flex-direction: column; align-items: center; justify-content: center; gap: 32px; }
     .mobile-nav.open { display: flex; }
     .mobile-nav a { font-family: var(--serif); font-size: 28px; font-weight: 400; color: var(--white); text-decoration: none; transition: color 0.2s; }
-    .mobile-nav a:hover { color: var(--electric); }
+    .mobile-nav a:hover { color: var(--teal); }
     .mobile-nav-close { position: absolute; top: 24px; right: 48px; font-size: 24px; color: var(--platinum); cursor: pointer; background: none; border: none; }
     @media (max-width: 1024px) { nav { padding: 18px 32px; } #hero { padding: 100px 32px 60px; gap: 24px; } section { padding: 60px 32px; } footer { padding: 20px 32px; } .values-grid { grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 768px) { nav { padding: 16px 24px; } .nav-links { display: none; } .nav-cta { display: none; } .nav-hamburger { display: flex; } #hero { grid-template-columns: 1fr; padding: 100px 24px 60px; text-align: center; min-height: auto; } .hero-eyebrow { justify-content: center; } .hero-h1 { max-width: 100%; } .hero-btns { justify-content: center; } .hero-right { margin-top: 20px; } .hero-svg { max-width: 280px; } #stats { grid-template-columns: repeat(2, 1fr); } .stat:nth-child(2) { border-right: none; } .stat:nth-child(3) { border-top: 0.5px solid #0E0B2E; } section { padding: 52px 24px; } .svc-grid { grid-template-columns: 1fr; gap: 14px; } .about-grid { grid-template-columns: 1fr; gap: 32px; } .infog-flow { flex-wrap: wrap; gap: 16px; } .flow-arrow { display: none; } .flow-node { flex: 0 0 calc(33% - 12px); } .values-grid { grid-template-columns: 1fr 1fr; } footer { flex-direction: column; text-align: center; } .footer-right { text-align: center; } }
@@ -165,7 +194,7 @@
 <div class="mobile-nav" id="mobileNav">
   <button class="mobile-nav-close" onclick="closeMobileNav()">&#10005;</button>
   <a href="#services" onclick="closeMobileNav()">Services</a>
-  <a href="#about" onclick="closeMobileNav()">About</a>
+  <a href="#team" onclick="closeMobileNav()">Our Team</a>
   <a href="#values" onclick="closeMobileNav()">Our Values</a>
   <a href="#contact" onclick="closeMobileNav()">Inquire</a>
 </div>
@@ -212,7 +241,7 @@
   </a>
   <ul class="nav-links">
     <li><a href="#services">Services</a></li>
-    <li><a href="#about">About</a></li>
+    <li><a href="#team">Our Team</a></li>
     <li><a href="#values">Our Values</a></li>
     <li><a href="#contact">Inquire</a></li>
   </ul>
@@ -225,8 +254,8 @@
   <div class="hero-glow"></div>
   <div class="hero-glow2"></div>
   <div class="hero-left">
-    <div class="hero-eyebrow">Caribbean AI + RWA Advisory</div>
-    <h1 class="hero-h1">An AI advisory built to <em>tokenize</em> the Caribbean's <span class="gold">real estate</span> future.</h1>
+    <div class="hero-eyebrow">Caribbean RWA Tokenisation</div>
+    <h1 class="hero-h1">The AI advisory built to <em>tokenise</em> the Caribbean's <span class="gold">real estate</span> future.</h1>
     <p class="hero-tagline">Caribbean-born &nbsp;&middot;&nbsp; Blockchain-powered &nbsp;&middot;&nbsp; Globally deployed</p>
     <div class="hero-btns">
       <a href="#services" class="btn-primary">Our services</a>
@@ -304,7 +333,7 @@
       <circle cx="183" cy="123" r="2.5" fill="#C8892A" opacity="0.7"/>
       <circle cx="137" cy="123" r="2.5" fill="#C8892A" opacity="0.5"/>
       <circle cx="200" cy="160" r="2" fill="#C8892A" opacity="0.6"/>
-      <text x="160" y="316" text-anchor="middle" font-size="8" fill="#3E2E1A" font-family="DM Sans, sans-serif" letter-spacing="3">CARIBBEAN BASIN</text>
+      <text x="160" y="316" text-anchor="middle" font-size="8" fill="#8A7A62" font-family="DM Sans, sans-serif" letter-spacing="3">CARIBBEAN BASIN</text>
       <line x1="90" y1="314" x2="138" y2="314" stroke="#1E1E4E" stroke-width="0.5"/>
       <line x1="182" y1="314" x2="230" y2="314" stroke="#1E1E4E" stroke-width="0.5"/>
     </svg>
@@ -312,59 +341,89 @@
 </section>
 <div class="ticker-wrap">
   <div class="ticker-track">
-    <span class="ticker-item"><span class="ticker-dot"></span>RWA Tokenization Advisory</span>
-    <span class="ticker-item"><span class="ticker-dot"></span>AI Strategy &amp; Implementation</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>RWA Tokenisation Advisory</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Security Token Offerings</span>
     <span class="ticker-item"><span class="ticker-dot"></span>Caribbean Real Estate</span>
-    <span class="ticker-item"><span class="ticker-dot"></span>Fractional CAIO Services</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Fractional Property Ownership</span>
     <span class="ticker-item"><span class="ticker-dot"></span>Clarity &middot; Transparency &middot; Integrity</span>
     <span class="ticker-item"><span class="ticker-dot"></span>Smart Contract Briefings</span>
-    <span class="ticker-item"><span class="ticker-dot"></span>No Middle-Man &middot; Savings &middot; Liquidity</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Clarity &middot; Savings &middot; Liquidity</span>
     <span class="ticker-item"><span class="ticker-dot"></span>Born in Barbados &middot; Built for the world</span>
-    <span class="ticker-item"><span class="ticker-dot"></span>RWA Tokenization Advisory</span>
-    <span class="ticker-item"><span class="ticker-dot"></span>AI Strategy &amp; Implementation</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>RWA Tokenisation Advisory</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Security Token Offerings</span>
     <span class="ticker-item"><span class="ticker-dot"></span>Caribbean Real Estate</span>
-    <span class="ticker-item"><span class="ticker-dot"></span>Fractional CAIO Services</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Fractional Property Ownership</span>
     <span class="ticker-item"><span class="ticker-dot"></span>Clarity &middot; Transparency &middot; Integrity</span>
     <span class="ticker-item"><span class="ticker-dot"></span>Smart Contract Briefings</span>
-    <span class="ticker-item"><span class="ticker-dot"></span>No Middle-Man &middot; Savings &middot; Liquidity</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Clarity &middot; Savings &middot; Liquidity</span>
     <span class="ticker-item"><span class="ticker-dot"></span>Born in Barbados &middot; Built for the world</span>
   </div>
 </div>
 <div id="stats">
   <div class="stat reveal"><div class="stat-n"><span class="count" data-target="5">0</span><em>T+</em></div><div class="stat-l">Global RWA market<br>projected by 2030</div></div>
-  <div class="stat reveal reveal-delay-1"><div class="stat-n"><span class="count" data-target="16">0</span><em>+</em></div><div class="stat-l">Caribbean<br>territories covered</div></div>
-  <div class="stat reveal reveal-delay-2"><div class="stat-n">1<em>st</em></div><div class="stat-l">Caribbean RWA<br>+ AI advisory</div></div>
+  <div class="stat reveal reveal-delay-1"><div class="stat-n">8&#8211;16<em>wks</em></div><div class="stat-l">Full tokenisation<br>timeline</div></div>
+  <div class="stat reveal reveal-delay-2"><div class="stat-n">1<em>st</em></div><div class="stat-l">Caribbean's first dedicated<br>RWA advisory</div></div>
   <div class="stat reveal reveal-delay-3"><div class="stat-infinity-wrap"><span class="stat-infinity">&#8734;</span><div class="stat-l stat-l-gold">Global investor<br>reach</div></div></div>
 </div>
 <section id="services">
   <div class="sec-eyebrow reveal">Our services</div>
   <h2 class="sec-h2 reveal">Three engagements.<br><em>One advisory standard.</em></h2>
-  <p class="sec-sub reveal">Each service moves Caribbean real estate owners from <em>traditional ownership</em> to <em>global digital capital</em> &#8212; with AI and blockchain at every step.</p>
+  <p class="sec-sub reveal">Three clear engagements. One Caribbean RWA journey &#8212; from first insight to fully tokenised, <em>globally investable asset</em>. Single assets and full portfolio programmes both welcome.</p>
   <div class="svc-grid">
     <div class="svc-card reveal">
-      <div class="svc-illus"><svg width="56" height="56" viewBox="0 0 56 56" fill="none"><rect x="8" y="6" width="30" height="38" rx="3" fill="#120A34" stroke="#1A0D5C" stroke-width="0.8"/><line x1="14" y1="15" x2="32" y2="15" stroke="#1A0D5C" stroke-width="0.7"/><line x1="14" y1="21" x2="32" y2="21" stroke="#1A0E48" stroke-width="0.6"/><line x1="14" y1="27" x2="26" y2="27" stroke="#1A0E48" stroke-width="0.6"/><circle cx="38" cy="38" r="12" fill="#09061C" stroke="#5448C0" stroke-width="1"/><circle cx="38" cy="38" r="6" fill="none" stroke="#1A0D5C" stroke-width="0.6"/><line x1="46" y1="46" x2="51" y2="51" stroke="#5448C0" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+      <div class="svc-illus"><svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M4 28 C4 28 14 12 28 12 C42 12 52 28 52 28 C52 28 42 44 28 44 C14 44 4 28 4 28Z" stroke="#C8892A" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="28" cy="28" r="10" stroke="#0C7272" stroke-width="2.5"/>
+  <circle cx="28" cy="28" r="4" fill="#C8892A"/>
+  <line x1="28" y1="4" x2="28" y2="10" stroke="#C8892A" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <line x1="28" y1="46" x2="28" y2="52" stroke="#C8892A" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+</svg></div>
       <div class="svc-num">01</div>
-      <h3 class="svc-h3">RWA <em>Readiness</em> Assessment</h3>
-      <p class="svc-p">A full AI-powered evaluation of your portfolio, ownership structure, and tokenization viability. Delivered as a clear strategic roadmap with ROI projections and next steps.</p>
-      <span class="svc-price">From $2,500</span>
+      <h3 class="svc-h3">The Blu Web <em>Blueprint</em></h3>
+      <p class="svc-p">We do the homework so you know exactly what you're getting into. A complete picture of your asset's RWA tokenisation potential &#8212; SPV structuring options, DASP regulatory pathway, ROI modelling, and jurisdiction analysis &#8212; delivered as a clear professional strategy document. Honest, thorough, and valuable regardless of what it reveals.</p>
+      <span class="svc-price">Valued regardless of outcome</span>
     </div>
     <div class="svc-card featured reveal reveal-delay-1">
-      <div class="svc-illus"><svg width="56" height="56" viewBox="0 0 56 56" fill="none"><circle cx="28" cy="28" r="16" fill="#1A1204" stroke="#C8892A" stroke-width="1.2"/><circle cx="28" cy="28" r="8" fill="none" stroke="#C8892A" stroke-width="0.6" opacity="0.5"/><circle cx="28" cy="28" r="3.5" fill="#C8892A"/><line x1="28" y1="12" x2="28" y2="20" stroke="#C8892A" stroke-width="0.7" opacity="0.7"/><line x1="28" y1="36" x2="28" y2="44" stroke="#C8892A" stroke-width="0.7" opacity="0.7"/><line x1="12" y1="28" x2="20" y2="28" stroke="#C8892A" stroke-width="0.7" opacity="0.7"/><line x1="36" y1="28" x2="44" y2="28" stroke="#C8892A" stroke-width="0.7" opacity="0.7"/><circle cx="28" cy="12" r="2.8" fill="#1A1204" stroke="#C8892A" stroke-width="0.8"/><circle cx="44" cy="28" r="2.8" fill="#1A1204" stroke="#C8892A" stroke-width="0.8"/><circle cx="28" cy="44" r="2.8" fill="#1A1204" stroke="#C8892A" stroke-width="0.8"/><circle cx="12" cy="28" r="2.8" fill="#1A1204" stroke="#C8892A" stroke-width="0.8"/></svg></div>
-      <div class="svc-num gold-num">02 &middot; Most popular</div>
-      <h3 class="svc-h3">AI <em>Partnership</em> Retainer</h3>
-      <p class="svc-p">Your embedded fractional CAIO. Ongoing AI strategy, RWA monitoring, market intelligence, and implementation guidance &#8212; delivered monthly as your intelligence partner.</p>
-      <span class="svc-price" style="color:var(--gold);border-color:rgba(200,137,42,0.5)">$3,000 &#8211; $5,000 / month</span>
+      <div class="svc-illus"><svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="28" cy="28" r="4.5" fill="#C8892A"/>
+  <circle cx="28" cy="10" r="3" stroke="#C8892A" stroke-width="2"/>
+  <circle cx="44" cy="20" r="3" stroke="#C8892A" stroke-width="2"/>
+  <circle cx="44" cy="36" r="3" stroke="#0C7272" stroke-width="2"/>
+  <circle cx="28" cy="46" r="3" stroke="#0C7272" stroke-width="2"/>
+  <circle cx="12" cy="36" r="3" stroke="#C8892A" stroke-width="2"/>
+  <circle cx="12" cy="20" r="3" stroke="#C8892A" stroke-width="2"/>
+  <line x1="28" y1="28" x2="28" y2="13" stroke="#C8892A" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="28" y1="28" x2="41" y2="21" stroke="#C8892A" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="28" y1="28" x2="41" y2="35" stroke="#0C7272" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="28" y1="28" x2="28" y2="43" stroke="#0C7272" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="28" y1="28" x2="15" y2="35" stroke="#C8892A" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="28" y1="28" x2="15" y2="21" stroke="#C8892A" stroke-width="1.5" stroke-linecap="round"/>
+</svg></div>
+      <div class="svc-num gold-num">02 &middot; Main engagement</div>
+      <h3 class="svc-h3"><em>Full</em> Tokenisation</h3>
+      <p class="svc-p">The Blueprint becomes reality. We manage every step &#8212; SPV formation, DASP engagement, smart contract deployment, Security Token Offering (STO), and KYC-verified investor onboarding &#8212; from first legal structure to first investor on the blockchain. Built on DigiShares infrastructure. You focus on your asset. We handle everything else. Portfolio programmes for multiple assets available.</p>
+      <span class="svc-price" style="color:var(--gold);border-color:rgba(200,137,42,0.5)">Scoped to your offering value</span>
     </div>
     <div class="svc-card reveal reveal-delay-2">
-      <div class="svc-illus"><svg width="56" height="56" viewBox="0 0 56 56" fill="none"><rect x="8" y="22" width="16" height="22" rx="1.5" fill="#120A34" stroke="#1A0D5C" stroke-width="0.8"/><rect x="20" y="16" width="16" height="28" rx="1.5" fill="#160E3C" stroke="#1A0D5C" stroke-width="0.8"/><rect x="32" y="8" width="16" height="36" rx="1.5" fill="#120A34" stroke="#5448C0" stroke-width="0.8"/><line x1="8" y1="44" x2="48" y2="44" stroke="#1A0D5C" stroke-width="0.7"/><circle cx="16" cy="36" r="2.5" fill="#1A0D5C"/><circle cx="28" cy="28" r="2.5" fill="#1A0D5C"/><circle cx="40" cy="20" r="2.5" fill="#5448C0"/></svg></div>
+      <div class="svc-illus"><svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M8 42 L28 50 L48 42 L28 34 Z" stroke="#0C7272" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M8 42 L8 36 L28 44 L28 50" stroke="#0C7272" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M48 42 L48 36 L28 44 L28 50" stroke="#0C7272" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M8 32 L28 40 L48 32 L28 24 Z" stroke="#5448C0" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M8 32 L8 26 L28 34 L28 40" stroke="#5448C0" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M48 32 L48 26 L28 34 L28 40" stroke="#5448C0" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M8 22 L28 30 L48 22 L28 14 Z" stroke="#C8892A" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M8 22 L8 16 L28 24 L28 30" stroke="#C8892A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M48 22 L48 16 L28 24 L28 30" stroke="#C8892A" stroke-width="2" stroke-linejoin="round"/>
+</svg></div>
       <div class="svc-num">03</div>
-      <h3 class="svc-h3">Blu Engine <em>Implementation</em></h3>
-      <p class="svc-p">End-to-end AI tooling, investor-ready data rooms, and tokenization infrastructure &#8212; built for your specific asset portfolio and optimised for Caribbean jurisdictions.</p>
-      <span class="svc-price">$5,000 &#8211; $15,000</span>
+      <h3 class="svc-h3">Platform <em>Advisory</em></h3>
+      <p class="svc-p">Once your asset is live on the blockchain, the work shifts from building to managing. We stay alongside you every month &#8212; token holder communications, secondary market monitoring, regulatory compliance tracking, and AUM reporting &#8212; keeping your tokenised asset performing at its peak.</p>
+      <span class="svc-price">Monthly &#8212; post-tokenisation</span>
     </div>
   </div>
   <div class="infog reveal">
-    <div class="infog-title">How tokenization works</div>
+    <div class="infog-title">How tokenisation works</div>
     <div class="infog-sub">From Caribbean asset to global investor &#8212; in four AI-powered steps</div>
     <div class="infog-flow">
       <div class="flow-node"><div class="flow-icon gold-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="4" y="9" width="16" height="12" rx="1.5" stroke="#C8892A" stroke-width="1.2"/><line x1="7" y1="6" x2="7" y2="9" stroke="#C8892A" stroke-width="1.2" stroke-linecap="round"/><line x1="12" y1="4" x2="12" y2="9" stroke="#C8892A" stroke-width="1.2" stroke-linecap="round"/><line x1="17" y1="6" x2="17" y2="9" stroke="#C8892A" stroke-width="1.2" stroke-linecap="round"/></svg></div><div class="flow-label">RE Asset</div><div class="flow-sublabel">Your Caribbean<br>property</div></div>
@@ -377,6 +436,15 @@
       <div class="flow-arrow"><svg width="28" height="14" viewBox="0 0 28 14" fill="none"><line x1="0" y1="7" x2="21" y2="7" stroke="#C8892A" stroke-width="1" opacity="0.6"/><path d="M17 3l4 4-4 4" stroke="#C8892A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.6"/></svg></div>
       <div class="flow-node"><div class="flow-icon gold-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="#C8892A" stroke-width="1.2"/><circle cx="12" cy="12" r="3" fill="#C8892A"/><line x1="12" y1="4" x2="12" y2="9" stroke="#C8892A" stroke-width="0.7"/><line x1="12" y1="15" x2="12" y2="20" stroke="#C8892A" stroke-width="0.7"/><line x1="4" y1="12" x2="9" y2="12" stroke="#C8892A" stroke-width="0.7"/><line x1="15" y1="12" x2="20" y2="12" stroke="#C8892A" stroke-width="0.7"/></svg></div><div class="flow-label gold-label">Global Capital</div><div class="flow-sublabel">International<br>investors</div></div>
     </div>
+    <div style="margin-top:28px;background:#0A0620;border-radius:12px;padding:20px 24px;border:0.5px solid rgba(200,137,42,0.25)">
+      <div style="font-size:10px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--teal);margin-bottom:12px">Illustrative example</div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;text-align:center">
+        <div><div style="font-family:var(--serif);font-size:22px;font-weight:400;color:var(--gold)">$3M</div><div style="font-size:11px;color:var(--ghost);margin-top:4px;line-height:1.5">Barbados villa<br>asset value</div></div>
+        <div><div style="font-family:var(--serif);font-size:22px;font-weight:400;color:var(--gold)">3,000</div><div style="font-size:11px;color:var(--ghost);margin-top:4px;line-height:1.5">Tokens issued<br>at $1,000 each</div></div>
+        <div><div style="font-family:var(--serif);font-size:22px;font-weight:400;color:var(--gold)">40+</div><div style="font-size:11px;color:var(--ghost);margin-top:4px;line-height:1.5">Countries with<br>investor access</div></div>
+        <div><div style="font-family:var(--serif);font-size:22px;font-weight:400;color:var(--gold)">6%</div><div style="font-size:11px;color:var(--ghost);margin-top:4px;line-height:1.5">Annual rental yield<br>distributed quarterly</div></div>
+      </div>
+    </div>
   </div>
 </section>
 <section id="about" style="background:var(--deep);border-top:0.5px solid #0E0B2E;">
@@ -385,14 +453,48 @@
       <div class="sec-eyebrow">About</div>
       <h2 class="sec-h2">AI strategy built <em>in</em> the Caribbean,<br>built <em>for</em> the world.</h2>
       <p class="sec-sub" style="margin-bottom:0">The Blu Web is a Caribbean-born AI advisory at the intersection of <em>real estate, artificial intelligence, and blockchain</em>. We exist because the Caribbean's best real estate is still invisible to global capital markets. Real World Asset tokenisation &#8212; powered by AI &#8212; is how we change that.</p>
+      <p class="sec-sub" style="margin-bottom:0;margin-top:16px;font-size:13px">Building toward becoming the Caribbean's first <em>licensed RWA tokenisation platform operator</em> &#8212; connecting Caribbean assets directly to global investor capital.</p>
     </div>
     <div class="about-panel reveal reveal-delay-1">
       <div class="about-row"><span class="about-label">Founded</span><span class="about-val">2026, Barbados</span></div>
       <div class="about-row"><span class="about-label">Specialisation</span><span class="about-badge">Caribbean RWA + AI</span></div>
       <div class="about-row"><span class="about-label">Positioning</span><span class="about-badge-gold">Caribbean-first</span></div>
       <div class="about-row"><span class="about-label">Parent company</span><span class="about-badge">ShellCorp Holdings Inc.</span></div>
-      <div class="about-row"><span class="about-label">Advisory model</span><span class="about-val">No middle-man</span></div>
+      
       <div class="about-row"><span class="about-label">Reach</span><span class="about-val">Global investor network</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="team" style="background:var(--midnight);border-top:0.5px solid #0E0B2E;">
+  <div class="sec-eyebrow reveal">The team</div>
+  <h2 class="sec-h2 reveal">The people behind <em>the platform.</em></h2>
+  <p class="sec-sub reveal">Two founders. Deep Caribbean roots. A shared conviction that the region&#8217;s best real estate deserves a place in the global capital markets it has long been shut out of.</p>
+  <div class="team-grid">
+    <div class="team-card reveal">
+      <div class="team-avatar">SS</div>
+      <div class="team-name">Shelley Shepherd</div>
+      <div class="team-role-badge">Founder &amp; CEO</div>
+      <p class="team-bio">Shelley is a Barbados-based strategist with over 15 years in business development, sales, and Caribbean real estate. As a Certified Real Estate Auctioneer and Computer Science graduate of the Caribbean Institute of Information &amp; Technology, she recognised early that the Caribbean&#8217;s most valuable assets were invisible to global capital &#8212; and built The Blu Web to change that. Former Executive Director of Dekco Caribbean Inc. and founder of ShellCorp Holdings Inc., she brings the regional depth, commercial instincts, and industry expertise &#8212; including real estate &#8212; this market demands.</p>
+      <div class="team-creds">
+        <div class="team-cred"><span class="team-cred-dot"></span>Certified Real Estate Auctioneer (CREA)</div>
+        <div class="team-cred"><span class="team-cred-dot"></span>Computer Science &#8212; Caribbean Institute of Information &amp; Technology</div>
+        <div class="team-cred"><span class="team-cred-dot"></span>Anthropic Claude AI Certification</div>
+        <div class="team-cred"><span class="team-cred-dot"></span>Tennex Academy &#8212; AI Business Strategy</div>
+        <div class="team-cred"><span class="team-cred-dot"></span>15+ years Caribbean business development, including real estate</div>
+      </div>
+    </div>
+    <div class="team-card reveal reveal-delay-1">
+      <div class="team-avatar">SF</div>
+      <div class="team-name">Samuel Fitzgerald</div>
+      <div class="team-role-badge">Digital &amp; Technology Partner</div>
+      <p class="team-bio">Sam is a Digital and UX Principal with enterprise-level experience across the US and Caribbean technology sectors. A Computer Science graduate of the University of the West Indies, he has led digital product architecture projects for eBay Enterprise, McGraw Hill Financial, and Standard &amp; Poor&#8217;s. At The Blu Web, Sam oversees the technical infrastructure and platform architecture &#8212; ensuring every tokenisation is built on a digital foundation that meets international standards.</p>
+      <div class="team-creds">
+        <div class="team-cred"><span class="team-cred-dot"></span>Digital &amp; UX Principal &#8212; eBay Enterprise, McGraw Hill, S&amp;P</div>
+        <div class="team-cred"><span class="team-cred-dot"></span>BSc Computer Science &#8212; University of the West Indies</div>
+        <div class="team-cred"><span class="team-cred-dot"></span>Certified: Information Technology &amp; Internet Concepts</div>
+        <div class="team-cred"><span class="team-cred-dot"></span>20+ years enterprise digital product delivery</div>
+      </div>
     </div>
   </div>
 </section>
@@ -403,25 +505,73 @@
     <div class="value-card reveal"><div class="value-icon"></div><div class="value-title">Clarity</div><div class="value-desc">No jargon. No complexity. A clear path from your asset to global capital &#8212; every step explained.</div></div>
     <div class="value-card reveal reveal-delay-1"><div class="value-icon"></div><div class="value-title">Transparency</div><div class="value-desc">You see everything &#8212; the process, the structure, the fees. Nothing hidden, nothing obscured.</div></div>
     <div class="value-card reveal reveal-delay-2"><div class="value-icon"></div><div class="value-title">Integrity</div><div class="value-desc">Caribbean-born. Built on trust. We are accountable to you and your assets at every stage.</div></div>
-    <div class="value-card reveal reveal-delay-3"><div class="value-icon"></div><div class="value-title">Speedy</div><div class="value-desc">From assessment to tokenized in weeks, not months. AI removes the delays traditional advisories can't.</div></div>
-    <div class="value-card reveal"><div class="value-icon"></div><div class="value-title">No Middle-Man</div><div class="value-desc">Direct from your asset to global investors. We remove the costly layers between you and your capital.</div></div>
+    <div class="value-card reveal reveal-delay-3"><div class="value-icon"></div><div class="value-title">Rigorous</div><div class="value-desc">Every engagement conducted with the depth and precision the transaction demands. AI-powered thoroughness at every stage &#8212; no shortcuts, no assumptions.</div></div>
+    
     <div class="value-card reveal reveal-delay-1"><div class="value-icon"></div><div class="value-title">Savings</div><div class="value-desc">AI eliminates the cost layers that traditional advisories pass on to you. More capital stays where it belongs.</div></div>
-    <div class="value-card reveal reveal-delay-2" style="grid-column: span 2;"><div class="value-icon"></div><div class="value-title">Liquidity</div><div class="value-desc">Tokenization turns your illiquid Caribbean property into a fractional, tradeable digital asset &#8212; accessible to a global pool of investors for the first time.</div></div>
+    <div class="value-card reveal reveal-delay-2"><div class="value-icon"></div><div class="value-title">Liquidity</div><div class="value-desc">Tokenization turns your illiquid Caribbean property into a fractional, tradeable digital asset &#8212; accessible to a global pool of investors for the first time.</div></div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="sec-eyebrow reveal">Common questions</div>
+  <h2 class="sec-h2 reveal">What you need to <em>know.</em></h2>
+  <p class="sec-sub reveal">Plain answers to the questions every Caribbean property owner asks before taking the first step.</p>
+  <div class="faq-grid">
+    <div class="faq-item reveal">
+      <div class="faq-q">Is my property suitable for tokenisation?</div>
+      <div class="faq-a">Most Caribbean real estate with clear title and defensible value can be tokenised. Luxury residential, commercial, resort, and development land are all viable. The Blu Web Blueprint will tell you exactly where your asset stands &#8212; with no obligation to proceed.</div>
+    </div>
+    <div class="faq-item reveal reveal-delay-1">
+      <div class="faq-q">Will I lose control of my property?</div>
+      <div class="faq-a">No. Tokenisation creates fractional digital ownership of the economic rights to your asset &#8212; not the title. You retain full legal ownership and control. Token holders receive a share of income and appreciation, not the right to occupy or sell your property.</div>
+    </div>
+    <div class="faq-item reveal reveal-delay-2">
+      <div class="faq-q">Is this legal and regulated in Barbados?</div>
+      <div class="faq-a">Yes. The Blu Web operates within Barbados&#8217;s evolving digital asset regulatory framework and engages qualified Caribbean legal counsel on every engagement. We navigate the DASP regulatory pathway on your behalf and keep you informed at every stage.</div>
+    </div>
+    <div class="faq-item reveal">
+      <div class="faq-q">What is the minimum asset value?</div>
+      <div class="faq-a">We work with assets from approximately USD $500,000 upward. The economics of tokenisation become most compelling at values of $1M+ where the capital access benefits clearly outweigh the setup cost.</div>
+    </div>
+    <div class="faq-item reveal reveal-delay-1">
+      <div class="faq-q">How long does the full process take?</div>
+      <div class="faq-a">The Blueprint is typically delivered within 2&#8211;3 weeks. Full tokenisation from Blueprint to live Security Token Offering generally takes 8&#8211;16 weeks depending on legal structure, asset type, and regulatory pathway. A specific timeline is provided at the Blueprint stage.</div>
+    </div>
+    <div class="faq-item reveal reveal-delay-2">
+      <div class="faq-q">I have multiple properties &#8212; can you handle a portfolio?</div>
+      <div class="faq-a">Yes &#8212; and it is more efficient. The legal and technical infrastructure built for your first asset is reused for every subsequent one, significantly reducing the per-asset cost. We structure portfolio engagements with a single setup fee and a reduced per-asset execution fee.</div>
+    </div>
   </div>
 </section>
 <section id="contact">
   <div class="cta-gold-rule"></div>
   <div class="sec-eyebrow reveal" style="justify-content:center">Ready to begin</div>
-  <h2 class="sec-h2 reveal" style="text-align:center;margin:0 auto 14px">Your asset. <em>Tokenized.</em><br>Ready for global capital.</h2>
-  <p class="sec-sub reveal" style="text-align:center;margin:0 auto 32px">No cost. No obligation. Just clarity on what's possible<br>for your Caribbean real estate portfolio.</p>
+  <h2 class="sec-h2 reveal" style="text-align:center;margin:0 auto 14px">Your asset. <em>Tokenised.</em><br>Ready for global capital.</h2>
+  <p class="sec-sub reveal" style="text-align:center;margin:0 auto 32px">No cost. No obligation. Just an honest conversation about<br>what tokenisation could mean for your Caribbean asset.</p>
   <div style="text-align:center" class="reveal">
     <a href="https://mail.google.com/mail/?view=cm&to=hello@thebluweb.com&su=RWA%20Advisory%20Call%20-%20The%20Blu%20Web" target="_blank" class="btn-primary" style="font-size:14px;padding:14px 34px">Book your free RWA advisory call</a>
     <p class="cta-note">Free 30-min session &nbsp;&middot;&nbsp; No commitment required &nbsp;&middot;&nbsp; Caribbean-focused</p>
+    
+    <p class="cta-note" style="margin-top:10px">Looking to <em style="color:var(--gold)">invest</em> in Caribbean real estate? <a href="https://mail.google.com/mail/?view=cm&to=hello@thebluweb.com&su=Investor%20Enquiry%20-%20The%20Blu%20Web" target="_blank" style="color:var(--gold);text-decoration:underline;text-underline-offset:3px">Start here &rarr;</a></p>
   </div>
 </section>
 <footer>
-  <div class="footer-left"><p>&#169; 2026 The Blu Web &middot; Bridgetown, Barbados</p></div>
-  <div class="footer-right"><p>A ShellCorp Holdings Inc. company</p><p class="gold-text">Caribbean AI + RWA Real Estate Advisory</p></div>
+  <div class="footer-left">
+    <p>&#169; 2026 The Blu Web &middot; Bridgetown, Barbados</p>
+    <p style="margin-top:6px;font-size:10px"><a href="#" style="color:var(--ghost);text-decoration:none;opacity:0.7">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="mailto:hello@thebluweb.com" style="color:var(--ghost);text-decoration:none;opacity:0.7">hello@thebluweb.com</a></p>
+  </div>
+  <div class="footer-right">
+    <p>A ShellCorp Holdings Inc. company</p>
+    <p class="gold-text">Caribbean AI + RWA Real Estate Advisory</p>
+    <div style="display:flex;gap:14px;justify-content:flex-end;margin-top:10px">
+      <a href="https://www.linkedin.com/company/thebluweb" target="_blank" aria-label="LinkedIn" style="color:var(--platinum);opacity:0.6;transition:opacity 0.2s" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.6">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/thebluweb" target="_blank" aria-label="Instagram" style="color:var(--platinum);opacity:0.6;transition:opacity 0.2s" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.6">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+      </a>
+    </div>
+  </div>
 </footer>
 <script>
   const navbar = document.getElementById('navbar');
